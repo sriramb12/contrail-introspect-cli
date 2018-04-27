@@ -1351,7 +1351,6 @@ def main():
     host = os.environ.get('INTROSPECT_HOST', None)
     port = os.environ.get('INTROSPECT_PORT', None)
     print 'port=', port
-    exit(0)
     filename = ""
 
     try:
